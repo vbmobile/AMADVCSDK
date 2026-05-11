@@ -1,6 +1,8 @@
 # AMADVCSDK
 
-High-level MRZ document scanning and processing SDK for iOS. Wraps the native scanning engine with document model support for seamless integration.
+## Document Verifier Component
+
+The Document Verifier Component (DVC) is a self-contained SDK within the 'Travel Ready' product portfolio. It is designed to streamline and automate the process of capturing, extracting, and verifying passports (PVC), resident card, visa and e-visa (EVC) information. 
 
 ## Requirements
 
