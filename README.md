@@ -42,7 +42,9 @@ Then add `AMADVCSDK ` to your target's dependencies:
 .target(
     name: "YourTarget",
     dependencies: [
-        .product(name: "AMADVCSDK", package: "DVCSDK")
+        .product(name: "AMADVCSDK", package: "Core"),
+        .product(name: "AMADVCSDK", package: "DVCSDK"),
+        .product(name: "AMADVCSDK", package: "DVCUISDK")
     ]
 )
 ```
